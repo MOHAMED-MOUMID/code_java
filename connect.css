@@ -1,0 +1,126 @@
+/* Style du tableau */
+.utilisateurs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style des lignes du tableau */
+.utilisateurs-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style des cellules du tableau */
+.utilisateurs-table td, .utilisateurs-table th {
+    padding: 8px;
+}
+
+/* Style de l'entête du tableau */
+.utilisateurs-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Style du formulaire */
+form {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Style des étiquettes */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style du bouton de soumission */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style des messages d'erreur */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Style des messages de succès */
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.message h2 {
+    color: #007bff;
+}
+
+.message p {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
