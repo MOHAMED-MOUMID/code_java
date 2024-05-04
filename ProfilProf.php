@@ -129,6 +129,8 @@ mysqli_close($conn);
         </div>
         <div class="profile-details">
 
+            <h2>ID_enseignant :</h2>
+            <p><?php echo $ID_enseignant ?></p>
             <h2>Nom :</h2>
             <p> <?php echo $prenom ?></p>
             <h2>Prénom :</h 2>
@@ -137,8 +139,7 @@ mysqli_close($conn);
             <p><?php echo $filière ?> </p>
             <h2>Email :</h2>
             <p><?php echo $Email ?></p>
-            <h2>ID_enseignant :</h2>
-            <p><?php echo $ID_enseignant ?></p>
+            
             
         </div>
         <div class="button-container">
